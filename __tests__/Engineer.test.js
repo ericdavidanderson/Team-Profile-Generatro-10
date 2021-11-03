@@ -7,6 +7,6 @@ test("testing Engineer class construction", () => {
 // const obj = new Engineer(github);
 
 expect(username.github).toBe(testValue);
-};
+});
 
 
