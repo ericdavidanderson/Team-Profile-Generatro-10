@@ -3,10 +3,10 @@ const Engineer = require("../lib/Engineer");
 test("testing Engineer class construction", () => {
     // it("should add a github username to a constructor"
     const testValue = "testUser"; {
-        var username = "github.com/ericdavidanderson/";
+        const username = new Engineer("Eric", 1, "github.com/ericdavidanderson/, testValue);
         const obj = new Engineer(github);
 
-        expect(obj.github).toEqual(username);
+        expect(username.gethub).toBe(testValue);
     });
 });
     
