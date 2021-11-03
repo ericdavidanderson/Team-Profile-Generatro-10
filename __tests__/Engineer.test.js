@@ -1,4 +1,4 @@
-
+const expectExport = require("expect");
 const Engineer = require("../lib/Engineer");
 describe("testing Engineer class construction", () => {
     it("should add a github username to a constructor", () => {
@@ -7,5 +7,5 @@ describe("testing Engineer class construction", () => {
 
         expect(obj.github).toEqual(username);
     });
-    }
 });
+    
