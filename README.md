@@ -21,6 +21,10 @@ This app is run through CLI using node.  Select the index.js file and enter node
 
 ## Usage:
  This project is intedned to help me learn about object oriented programming.  :compass:
+ 
+ ## Video:[teamProfileGenerator Video E.mov.zip](https://github.com/ericdavidanderson/Team-Profile-Generatro-10/files/7629534/teamProfileGenerator.Video.E.mov.zip)
+
+ 
 
 ## Credits
 :trophy:
