@@ -80,9 +80,17 @@ if (answer.Yes_No==="yes"){
     
 }
 else {
-    fs.writeFile(outputPath, generateHTML(teamArray), );
+    fs.writeFile(outputPath, generateHTML(teamArray),(error)=>{if (error){
+return console.log (error)
+ }
+ console.log("it works")
+});
 }
 
 })
 
 }
+
+
+  askStart();
+ 
